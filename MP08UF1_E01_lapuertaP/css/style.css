@@ -1,0 +1,510 @@
+*{
+    background: #222;
+    font-family: Helvetica, sans-serif;
+
+}
+.contenidor{
+    height: 50px;
+    background: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+}
+
+.contenidor img{
+    margin: 5px 20px 5px 20px;
+    height: 35px;
+}
+
+ul{
+    padding: 5px;
+    margin:5px;
+    background: black;
+}
+li{
+    display: inline;
+    margin: 5px;
+    background: black;
+}
+
+.veure{
+    margin: -45px 110px;
+    color: #CCC;
+}
+
+.xarxes{
+    margin: 5px;
+    float: right;
+    color: #CCC;
+
+}
+
+.docint{
+    display: inline-block;
+    margin: 25px 0px;
+}
+.docint h1{
+    color: #fff;
+    font-size: 22px;
+}
+
+/*-------------------koy-------------------*/
+
+.koy{
+    background-image: 175px;
+    width: 175px;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.koy img{
+    border-radius: 5px;
+}
+.koy h1{
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 auto;
+}
+.koy h2{
+    color: #ccc;
+    font-size: 11px;
+    float:left;
+}
+.koy h3{
+    color: #ccc;
+    font-size: 11px;
+    float: right;
+}
+/*-------------------ytu-------------------*/
+.ytu{
+    background-image: 175px;
+    width: 175px;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.ytu img{
+    border-radius: 5px;
+}
+.ytu h1{
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.ytu h2{
+    color: #ccc;
+    font-size: 11px;
+    float: left;;
+}
+
+.ytu h3{
+    color: #ccc;
+    font-size: 11px;
+    float: right;
+}
+
+/*-------------------earth-------------------*/
+.earth{
+    background-image: 175px;
+    width: 175px;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.earth img{
+    border-radius: 5px;
+}
+.earth h1{
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.earth h2{
+    color: #ccc;
+    font-size: 11px;
+    float: left;;
+}
+
+.earth h3{
+    color: #ccc;
+    font-size: 11px;
+    float: right;
+}
+
+/*-------------------helvetica-------------------*/
+.helvetica{
+    background-image: 175px;
+    width: 175px;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.helvetica img{
+    border-radius: 5px;
+}
+.helvetica h1{
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.helvetica h2{
+    color: #ccc;
+    font-size: 11px;
+    float: left;;
+}
+
+.helvetica h3{
+    color: #ccc;
+    font-size: 11px;
+    float: right;
+}
+
+/*-------------------sicko-------------------*/
+.sicko{
+    background-image: 175px;
+    width: 175px;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.sicko img{
+    border-radius: 5px;
+}
+.sicko h1{
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.sicko h2{
+    color: #ccc;
+    font-size: 11px;
+    float: left;;
+}
+
+.sicko h3{
+    color: #ccc;
+    font-size: 11px;
+    float: right;
+}
+
+/*-------------------zelt-------------------*/
+.zelt{
+    background-image: 175px;
+    width: 175px;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.zelt img{
+    border-radius: 5px;
+}
+.zelt h1{
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.zelt h2{
+    color: #ccc;
+    font-size: 11px;
+    float: left;;
+}
+
+.zelt h3{
+    color: #ccc;
+    font-size: 11px;
+    float: right;
+}
+
+/*-------------------art-------------------*/
+.art{
+    background-image: 175px;
+    width: 175px;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.art img{
+    border-radius: 5px;
+}
+.art h1{
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.art h2{
+    color: #ccc;
+    font-size: 11px;
+    float: left;
+}
+
+.art h3{
+    color: #ccc;
+    font-size: 11px;
+    float: right;
+}
+
+/*-------------------home-------------------*/
+.home{
+    background-image: 175px;
+    width: 175px;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.home img{
+    border-radius: 5px;
+}
+.home h1{
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.home h2{
+    color: #ccc;
+    font-size: 11px;
+    float: left;
+}
+
+.home h3{
+    color: #ccc;
+    font-size: 11px;
+    float: right;
+}
+
+/*-------------------rip-------------------*/
+.rip{
+    background-image: 175px;
+    width: 175px;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.rip img{
+    border-radius: 5px;
+}
+.rip h1{
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.rip h2{
+    color: #ccc;
+    font-size: 11px;
+    float: left;
+}
+
+.rip h3{
+    color: #ccc;
+    font-size: 11px;
+    float: right;
+}
+
+/*-------------------comprar-------------------*/
+.comprar{
+    background-image: 175px;
+    width: 175px;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.comprar img{
+    border-radius: 5px;
+}
+.comprar h1{
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.comprar h2{
+    color: #ccc;
+    font-size: 11px;
+    float: left;
+}
+
+.comprar h3{
+    color: #ccc;
+    font-size: 11px;
+    float: right;
+}
+
+/*-------------------inside-------------------*/
+.inside{
+    background-image: 175px;
+    width: 175px;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.inside img{
+    border-radius: 5px;
+}
+.inside h1{
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.inside h2{
+    color: #ccc;
+    font-size: 11px;
+    float: left;
+}
+
+.inside h3{
+    color: #ccc;
+    font-size: 11px;
+    float: right;
+}
+
+
+.docvist h1{
+    color: #fff;
+    font-size: 22px;
+}
+/*-------------------la-------------------*/
+.la{
+    background-image: 175px;
+    width: 175px;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.la img{
+    border-radius: 5px;
+}
+.la h1{
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.la h2{
+    color: #ccc;
+    font-size: 11px;
+    float: left;
+}
+
+.la h3{
+    color: #ccc;
+    font-size: 11px;
+    float: right;
+}
+
+/*-------------------searching-------------------*/
+.searching{
+    background-image: 175px;
+    width: 175px;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.searching img{
+    border-radius: 5px;
+}
+.searching h1{
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.searching h2{
+    color: #ccc;
+    font-size: 11px;
+    float: left;
+}
+
+.searching h3{
+    color: #ccc;
+    font-size: 11px;
+    float: right;
+}
+
+/*-------------------the-------------------*/
+.the{
+    background-image: 175px;
+    width: 175px;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.the img{
+    border-radius: 5px;
+}
+.the h1{
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.the h2{
+    color: #ccc;
+    font-size: 11px;
+    float: left;
+}
+
+.the h3{
+    color: #ccc;
+    font-size: 11px;
+    float: right;
+}
+
+/*-------------------el-------------------*/
+.el{
+    background-image: 175px;
+    width: 175px;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.el img{
+    border-radius: 5px;
+}
+.el h1{
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.el h2{
+    color: #ccc;
+    font-size: 11px;
+    float: left;
+}
+
+.el h3{
+    color: #ccc;
+    font-size: 11px;
+    float: right;
+}
+
+/*-------------------Títol-------------------*/
+.Títol{
+    background-image: 175px;
+    width: 175px;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+.Títol img{
+    border-radius: 5px;
+}
+.Títol h1{
+    color: #ccc;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.Títol h2{
+    color: #ccc;
+    font-size: 11px;
+    float: left;
+}
+
+.Títol h3{
+    color: #ccc;
+    font-size: 11px;
+    float: right;
+}
+
+img:hover{
+    background: #FFF;
+}
+
+/*a:hover{
+    color: #FFF;
+}*/

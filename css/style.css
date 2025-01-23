@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.pagina{
+    position: relative;
+    height: 100%;
+}
+
+.p2 ul{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+html, body{
+    height: 100%;
+}
+
+nav{
+    position: fixed;
+    height: 35px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5000;
+    background: white;
+}
+
+nav li{
+    margin: 1px 20px;
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Na rrow Bold', sans-serif;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 20pt;
+}
+
+h1{
+    padding-top: 50px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: "Marcellus", serif;
+    font-size: 150px;
+    color: black;
+}
+
+h2{
+    padding-top: 250px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: "Afacad Flux", serif;
+    font-size: 60px;
+    color: black;
+}
+
+.p1{
+    background: rgb(107, 107, 107);
+
+}
+
+.p1 h1{
+    font-family: "League Gothic", serif;
+}
+
+.p2 li{
+    background: rgb(255, 252, 244);
+    width: 330px;
+    height: 460px;
+    border-radius: 2%;
+    float: left;
+    text-align: left;
+    list-style: none;
+    line-height: 520px;
+    color: rgb(0, 0, 168);
+    text-decoration: none;
+    margin: 10px;
+    box-shadow: 0 2px 8px 0px rgb(91, 91, 91);
+}
+
+
+.p2 li h1{
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    left: 50px;
+    top: 309px;
+}
+
+.p2 li h2{
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    left: 280px;
+    top: -360px;
+}
+
+.rectangle{
+    background: #E6E6FA;
+    width: 300px;
+    height: 300px;
+    border-radius: 2%;
+    margin: 10px;
+    position: relative;
+    bottom: 1335px;
+    left: 5px;
+}
+
+.r1{
+    background: #E6E6FA;
+}
+.r2{
+    background: #6c3;
+}
+.r3{
+    background: rgb(246, 238, 13);
+}
+.r4{
+    background: rgb(156, 100, 5);
+}
+.r5{
+    background: linear-gradient(30deg, hsl(240deg 100% 20%) 0%, hsl(6deg 98% 61%) 20%, hsl(85deg 87% 64%) 40%, hsl(182deg 100% 46%) 60%, hsl(217deg 100% 70%) 80%, hsl(330deg 99% 47%) 100%);
+}
+.r6{
+    background: rgb(64, 99, 9);
+}
+.r7{
+    background: rgb(35, 35, 249);
+}
+.r8{
+    background: rgb(135, 3, 3);
+}
+
+.p2 li:hover{
+    background: rgb(255, 252, 244);
+    color: rgb(104, 104, 104);
+    position: relative;
+    bottom: 8px;
+    right: 10px;
+    box-shadow: 0 10px 15px 0 gray;
+}
+
+.p2{
+    margin: 10px;
+}
+
+h1 :nth-child(2){
+    color: #6c3;
+    font-family: Georgia, 'Times New Roman', Times, serifn
+}
+
+.p3{
+    background: rgb(91, 91, 91);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    top: 290px;
+    
+}
+
+.p3 img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    float:left;
+    margin: 0 55px;
+    text-align: center;
+}
+
+.p3 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15pt;
+}
+
+.redes{
+    margin: 0 auto;
+    height: 130px;
+    width: 30%;
+    text-align: left;
+    position: relative;
+    top: 300px;
+}
+
+.insta{
+    margin: 0 auto;
+}
+
+.telefon{
+    margin: 0 auto;
+}
+
+.correu{
+    margin: 0 auto;
+}
+
+.xarxes{
+    height: auto;
+    
+}
+
+.primer li h1{
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+}
+
+.segon li h1{
+    position: relative;
+    bottom: 50px;
+    left: 46px;
+}
+
+.tercer li h1{
+    position: relative;
+    bottom: 50px;
+    left: 64px;
+}
+
+.quart li h1{
+    position: relative;
+    bottom: 50px;
+    left: 47px;
+}
+
+.cinque li h1{
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+}
+
+.sise li h1{
+    position: relative;
+    bottom: 50px;
+    left: 56px;
+}
+
+.sete li h1{
+    position: relative;
+    bottom: 50px;
+    left: 56px;
+}
+
+.vuite li h1{
+    position: relative;
+    bottom: 50px;
+    left: 63px;
+}
+
+.p2 li h2{
+    position: relative;
+    bottom: 50px;
+    left: 297px;
+}
+
+@media screen and (max-width: 947px) {
+    .p1 h2{
+        font-size: 41pt;
+    }
+
+}

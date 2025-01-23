@@ -1,0 +1,78 @@
+.petal{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(rgb(144, 0, 0), rgb(255, 0, 0));
+    border-radius: 0px 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transform-origin: top left;
+}
+
+.primer{
+    transform: rotate(0deg);
+}
+
+.segon{
+    background: linear-gradient(to bottom left, rgb(35, 35, 249), rgb(2, 0, 144));
+    transform: rotate(60deg);
+}
+
+.tercer{
+    transform: rotate(120deg);
+}
+
+.quart{
+    transform: rotate(180deg);
+    background: linear-gradient(to bottom left, rgb(35, 35, 249), rgb(2, 0, 144));
+      
+}
+
+.cinque{
+    transform: rotate(240deg);
+}
+
+.sise{
+    transform: rotate(300deg);
+    background: linear-gradient(to bottom left, rgb(35, 35, 249), rgb(2, 0, 144));
+}
+
+.flor{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+.flor:hover{
+    animation:girasol 10s infinite linear;
+}
+
+.flor:first-child{
+    top: 100px;
+    left: 200px;
+}
+
+.flor:last-child{
+    top:100px;
+    left: 600px;
+}
+
+.cor{
+    background: rgb(244,236,150);
+    background: radial-gradient(circle, rgba(244,236,150,1) 28%, rgba(255,218,11,0.9902457967836258) 70%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+
+@keyframes girasol{
+    0% {
+        transform: rotate (0deg);}
+
+    100% {
+        transform: rotate(360deg);}
+
+}

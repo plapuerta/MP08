@@ -1,0 +1,226 @@
+body{
+    font-family: helvetica, sans-serif;
+}
+
+header{
+    height: 170px;
+    background-color: white;
+}
+
+nav{
+    height: 180px;
+    background-color: white;
+}
+
+article{
+    background-color: white;
+}
+
+.contenidor{
+    overflow: hidden;
+    width: 1716px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.entrada{
+    width: 536px;
+    height: 620px;
+    margin: 18px;
+    float: left;
+}
+
+img{
+    width: 536px;
+    height: 536px;
+}
+
+.reaccions{
+    height: 84px;
+    overflow:hidden;
+}
+.cercle{
+    background-color: blue;
+    height: 78px;
+    width: 78px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 28px;
+    background-image: url(../img/perfil.jpg);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 15px purple;
+    opacity: 80%;
+}
+
+.cercle::after{
+    content:"+";
+    display: block;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    font-size: 32px;
+    border: solid 3px white;
+    position: relative;
+    top: 55px;
+    left: 60px; 
+
+}
+
+.cercle:hover{
+    opacity: 100%;
+}
+
+/*______________elements article_________*/
+.fotoautor{
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-image: url(../img/perfil.jpg);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px purple;
+    margin: 10px;
+    padding: 10px;
+}
+
+.autor{
+    font-size: 20px;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.moment{
+    width: 180px;
+    font-size: 16px;
+    color: gainsboro;
+}
+
+.like{
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+
+.esquerra{
+    float: left;
+    width: 50%;
+    margin:0;
+}
+
+.dreta{
+    float: right;
+    width: 50%;
+    margin:0;
+}
+
+.comentari{
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    width: 180px;
+    float: left;
+}
+
+.like{
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+
+.mes{
+    height: 40px;
+    width: 40px;
+    float: left;
+    line-height: 30px;
+    font-size: 900;
+}
+
+.home{
+    width: 208px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-image: url(../img/ifpagram_logo_09.jpg);
+    background-size: 100%;
+    display: inline-block;
+}
+
+/*he de tornar a treure la foto de ifpagram del photoshop*/
+
+.menu{
+    width: 208px;
+    height: 45px;
+    margin: 50px 530px 0px 530px;
+    display: inline-block;
+}
+
+.menu li{
+    width: 32px;
+    height: 32px;
+    background-color: blueviolet;
+    margin: 3px;
+    display: inline-block;
+}
+
+
+.menu .inici{
+    background-image: url(../img/ifpagram_12.jpg);
+    background-position: -10px -2px;
+    background-color: blue;
+}
+
+.menu .cerca{
+    background-image:  url(../img/ifpagram_12.jpg) ;
+    background-position: -94px -2px;
+}
+
+.menu .reels{
+    background-image: url(../img/ifpagram_12.jpg) ;
+    background-position: -176px 0px ;
+}
+
+.menu .favorits{
+    background-image: url(../img/ifpagram_12.jpg) ;
+    background-position: -261px -2px ;
+}
+
+/* tengo q cambiar estas imagenes y después meterlas solo en el li*/
+
+.perfil{
+    width: 208px;
+    height: 39px;
+    margin: 50 0 0 0;
+    display: inline-block;
+}
+
+.perfil li{
+    width: 32px;
+    height: 32px;
+    margin: 3px;
+    display: inline-block;
+}
+
+.perfil .direct{
+    background-image: url(../img/Captura\ de\ Pantalla\ 2024-11-05\ a\ las\ 17.17.30.png);
+    background-position: -10px -12px;
+    height:40px;
+    background-size: 160%;
+    background-repeat: no-repeat;
+}
+
+.perfil .usuari{
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/perfil.jpg);
+    background-size: 105%;
+    border-radius: 50%;
+}

@@ -1,0 +1,106 @@
+:root{
+    --color0: cyan;
+    --color1:red;
+    --color2: blue;
+    --color3: yellow;
+    --colorB: limegreen;
+    --colorT: violet;
+}
+
+@font-face {
+    font-family: 'Trevino';
+    src: url('../fonts/trevino/Trevino.eot');
+    src: url('../fonts/trevino/Trevino.ttf') format('embedded-opentype');
+        url('../fonts/trevino/Trevino.woff') format('woff2');
+        url('../fonts/trevino/Trevino.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1 {
+    padding: top;
+    text-align: center;
+    font-family: 'Trevino';
+    font-weight: bold;
+    font-style: normal;
+    color: var(--colorT)
+
+}
+
+p {
+    padding: 1rem;
+    background: var(--color0);
+    cursor: zoom-in;
+}
+
+.progres{
+    height: 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--colorB);
+    scale: 0 1;
+    animation: analitzador linear;
+            -o-animation-timeline: scroll();
+        -moz-animation-timeline: scroll();
+    -webkit-animation-timeline: scroll();
+            animation-timeline: scroll();
+
+    transform-origin: left;
+}
+
+@keyframes analitzador{
+    to {
+        scale: 1 1;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /*aquí va el disseny per smartphone*/
+
+    body{
+        background: var(--color1);    
+    }
+
+    h1{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1279px) {
+
+    /*aquí va el disseny per tablet*/
+
+    body{
+        background: var(--color2);    
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    /*aquí va el disseny per ordinador*/
+
+    body{
+        background: var(--color3);
+    
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    p{
+        columns: 2;
+    }
+}
+

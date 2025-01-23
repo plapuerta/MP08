@@ -1,0 +1,23 @@
+html{
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    height: 100%;
+    background-image:linear-gradient(  
+    30deg,
+      hsl(240deg 100% 20%) 0%,
+      hsl(6deg 98% 61%) 20%,
+      hsl(85deg 87% 64%) 40%,
+      hsl(182deg 100% 46%) 60%,
+      hsl(217deg 100% 70%) 80%,
+      hsl(330deg 99% 47%) 100%
+    );
+  }
+
+  img{
+    width: 10%;
+
+  }
+
