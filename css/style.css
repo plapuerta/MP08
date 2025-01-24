@@ -137,6 +137,9 @@ h2{
     background: rgb(35, 35, 249);
 }
 .r8{
+    background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(181,0,0,1) 50%, rgba(0,3,222,1) 100%);
+}
+.r9{
     background: rgb(135, 3, 3);
 }
 
@@ -261,9 +264,18 @@ h1 :nth-child(2){
     left: 297px;
 }
 
-@media screen and (max-width: 947px) {
+@media screen and (max-width: 480px) {
+    .p1 h1{
+        font-size: 60pt;
+    }
     .p1 h2{
-        font-size: 41pt;
+        font-size: 20pt;
     }
 
+    nav{
+        height: 25px;
+    }
+    nav li{
+        font-size: 15pt;
+    }
 }
