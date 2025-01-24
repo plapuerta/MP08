@@ -252,6 +252,12 @@ h1 :nth-child(2){
     left: 56px;
 }
 
+.cara li h1{
+    position: relative;
+    bottom: 50px;
+    left: 46px;
+}
+
 .vuite li h1{
     position: relative;
     bottom: 50px;
@@ -277,5 +283,105 @@ h1 :nth-child(2){
     }
     nav li{
         font-size: 15pt;
+    }
+
+    .p2 li{
+        width: 130px;
+        height: 200px;
+        float: left;
+        line-height: 520px;
+        margin: 10px;
+        box-shadow: 0 2px 8px 0px rgb(91, 91, 91);
+    }
+    
+    
+    .p2 li h1{
+        font-size: 8px;
+        top: 100px;
+    }
+    
+    .p2 li h2{
+        font-size: 8px;
+        left: 104px;
+        top: -570px;
+    }
+    
+    .rectangle{
+        width: 100px;
+        height: 100px;
+        border-radius: 2%;
+        margin: 10px;
+        position: relative;
+        bottom: 1335px;
+        left: 5px;
+    }
+    
+    .primer li h1{
+        position: relative;
+        bottom: 50px;
+        left: 45px;
+    }
+    
+    .segon li h1{
+        position: relative;
+        bottom: 50px;
+        left: 36px;
+    }
+    
+    .tercer li h1{
+        position: relative;
+        bottom: 50px;
+        left: 48px;
+    }
+    
+    .quart li h1{
+        position: relative;
+        bottom: 50px;
+        left: 36px;
+    }
+    
+    .cinque li h1{
+        position: relative;
+        bottom: 50px;
+        left: 45px;
+    }
+    
+    .sise li h1{
+        position: relative;
+        bottom: 50px;
+        left: 42px;
+    }
+    
+    .sete li h1{
+        position: relative;
+        bottom: 50px;
+        left: 38px;
+    }
+
+    .cara li h1{
+        position: relative;
+        bottom: 50px;
+        left: 36px;
+    }
+    
+    .vuite li h1{
+        position: relative;
+        bottom: 50px;
+        left: 47px;
+    }
+
+    .p3 img{
+        height: 50px;
+        width: 50px;
+        position: relative;
+        float:left;
+        margin: 0 55px;
+        text-align: center;
+    }
+    
+    .p3 h3{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 8pt;
+        text-align: center;
     }
 }
