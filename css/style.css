@@ -64,12 +64,17 @@ h2{
 }
 
 .p1{
-    background: rgb(107, 107, 107);
+    background: rgb(0, 31, 111);
 
 }
 
 .p1 h1{
     font-family: "League Gothic", serif;
+    color: white;
+}
+.p1 h2{
+    color: white;
+    
 }
 
 .p2 li{
