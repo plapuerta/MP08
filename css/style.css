@@ -289,7 +289,7 @@ h1 :nth-child(2){
     .p2 li{
         width: 130px;
         height: 200px;
-        float: left;
+        display: inline-block;
         line-height: 520px;
         margin: 10px;
         box-shadow: 0 2px 8px 0px rgb(91, 91, 91);
