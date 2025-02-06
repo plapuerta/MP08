@@ -191,77 +191,56 @@
      .p1 h2{
          font-size: 20pt;
     }
-
-    .p2{
-        text-align: center;
-    }
      nav{
          height: 25px;
     }
      nav li{
          font-size: 15pt;
     }
+
+    .p2{
+          text-align: center;
+     }
      .p2 li{
          width: 8.125rem;
          height: 12.5rem;
          text-align: center;
-         line-height: 32.5rem;
          margin: 0.625rem;
          box-shadow: 0 0.125rem 0.5rem 0 rgb(91, 91, 91);
     }
+
      .p2 li h1{
          font-size: 0.5rem;
-         top: 6.25rem;
     }
      .p2 li h2{
          font-size: 0.5rem;
-         left: 6.5rem;
-         top: -35.625rem;
     }
+
+    .postit li h1, .postit li h2{
+          font-size: 0.5rem;
+          font-family: Helvetica, sans-serif;
+          height: 2rem;
+          width: 32%;
+          float: left;
+          padding: 0.625rem;
+     }
+
+     .postit li:hover{
+          background: rgb(255, 252, 244);
+          color: rgb(104, 104, 104);
+          bottom: 0.5rem;
+          right: 0.625rem;
+          box-shadow: 0 0.625rem 0.938rem 0 gray;
+     }
+
      .rectangle{
-         width: 6.25rem;
-         height: 6.25rem;
+         width: 6.80rem;
+         height: 6.80rem;
          border-radius: 2%;
          margin: 0.625rem;
-         bottom: 83.438rem;
-         left: 0.313rem;
+         left: 0.05rem;
     }
-     .primer li h1{
-         bottom: 3.125rem;
-         left: 2.813rem;
-    }
-     .segon li h1{
-         bottom: 3.125rem;
-         left: 2.25rem;
-    }
-     .tercer li h1{
-         bottom: 3.125rem;
-         left: 3rem;
-    }
-     .quart li h1{
-         bottom: 3.125rem;
-         left: 2.25rem;
-    }
-     .cinque li h1{
-         bottom: 3.125rem;
-         left: 2.813rem;
-    }
-     .sise li h1{
-         bottom: 3.125rem;
-         left: 2.625rem;
-    }
-     .sete li h1{
-         bottom: 3.125rem;
-         left: 2.375rem;
-    }
-     .cara li h1{
-         bottom: 3.125rem;
-         left: 2.25rem;
-    }
-     .vuite li h1{
-         bottom: 3.125rem;
-         left: 2.938rem;
-    }
+
     
      .p3 img{
          height: 3.125rem;
