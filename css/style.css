@@ -199,7 +199,7 @@
     }
 
     .p2{
-          text-align: center;
+          text-align: center;  
      }
      .p2 li{
          width: 8.125rem;
@@ -207,13 +207,6 @@
          text-align: center;
          margin: 0.625rem;
          box-shadow: 0 0.125rem 0.5rem 0 rgb(91, 91, 91);
-    }
-
-     .p2 li h1{
-         font-size: 0.5rem;
-    }
-     .p2 li h2{
-         font-size: 0.5rem;
     }
 
     .postit li h1, .postit li h2{
