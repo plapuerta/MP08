@@ -67,12 +67,19 @@
     margin: 0.625rem;
 }
 
+.postit{
+     text-align: center;
+     overflow: hidden;
+     width: 1800px;
+     margin: 0 auto;
+}
+
 .postit li{
      background: rgb(255, 252, 244);
      width: 20.625rem;
      height: 28.75rem;
      border-radius: 2%;
-     float: left;
+     display: inline-block;
      text-align: left;
      list-style: none;
      line-height: 2rem;
@@ -199,7 +206,8 @@
     }
 
     .p2{
-          text-align: center;  
+          text-align: center;
+
      }
      .p2 li{
          width: 8.125rem;
@@ -209,13 +217,18 @@
          box-shadow: 0 0.125rem 0.5rem 0 rgb(91, 91, 91);
     }
 
+    .postit{
+     text-align: center;
+     width: 100%;
+}
+
     .postit li h1, .postit li h2{
           font-size: 0.5rem;
           font-family: Helvetica, sans-serif;
           height: 2rem;
           width: 32%;
-          float: left;
           padding: 0.625rem;
+          display: inline-block;
      }
 
      .postit li:hover{
@@ -247,4 +260,21 @@
          font-size: 8pt;
          text-align: center;
     }
+}
+
+
+@media screen and (max-width:1800px){
+     .postit{
+          width: 1200px;
+     }
+
+     .p2{
+          height: auto;
+     }
+}
+
+@media screen and (max-width:1200px){
+     .postit{
+          width: 100%;
+     }
 }

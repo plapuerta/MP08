@@ -110,6 +110,41 @@ img{
     float: left;
 }
 
+input{
+    visibility: hidden;
+  }
+  
+  #agradador{
+    margin: 2rem 0 0 0;
+    width: 30px;
+    height: 30px;
+    float: left;
+    background: blue;
+    position: relative;
+    border-radius: 0.5rem;
+    bottom: 25px;
+  }
+  
+  #agradador label{
+    width: 30px;
+    height: 30px;
+    float: left;
+    visibility: visible;
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    transition: all .5s ease;
+    cursor: pointer;
+    opacity: 0;
+    background-image:         url(https://upload.wikimedia.org/wikipedia/commons/8/86/A_perfect_SVG_heart.svg);
+    background-size: 30px 30px;
+  }
+  
+  #agradador input[type=checkbox]:checked+label{
+    opacity:1;
+  }
+
 .esquerra{
     float: left;
     width: 50%;
