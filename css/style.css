@@ -13,7 +13,7 @@
 }
  nav{
      position: fixed;
-     height: 2.188rem;
+     height: 1.8rem;
      top: 0;
      left: 0;
      right: 0;
@@ -23,10 +23,10 @@
  nav li{
      margin: 0.063rem 1.25rem;
      display: inline-block;
-     font-family: Impact, Haettenschweiler, 'Arial Na rrow Bold', sans-serif;
+     font-family: "Afacad Flux", serif;
      color: white;
      letter-spacing: 0.063rem;
-     font-size: 20pt;
+     font-size: 15pt;
 }
 
 /*  ---1a planta---  */
@@ -46,7 +46,7 @@
      font-family: "League Gothic", serif;
 }
 .p1 h2{
-     padding-top: 15.625rem;
+     padding-top: 2rem;
      text-align: center;
      display: block;
      top: 50%;
@@ -106,7 +106,7 @@
 
 .postit li:hover{
     background: rgb(255, 252, 244);
-    color: rgb(104, 104, 104);
+    color: rgb(208, 0, 0);
     bottom: 0.5rem;
     right: 0.625rem;
     box-shadow: 0 0.625rem 0.938rem 0 gray;
@@ -159,10 +159,8 @@
      text-align: center;
 }
  .p3 img{
-     height: 6.25rem;
-     width: 6.25rem;
+     height: 8rem;
      float:left;
-     margin: 0 auto;
      text-align: center;
 }
  .p3 h3{
