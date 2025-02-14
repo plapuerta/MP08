@@ -158,36 +158,16 @@
      height: 100%;
      text-align: center;
 }
- .p3 img{
-     height: 8rem;
-     float:left;
-     text-align: center;
-}
- .p3 h3{
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     font-size: 15pt;
-     text-align: center;
-}
- .redes{
+
+.contacte{
      margin: 0 auto;
-     height: 8.125rem;
-     width: 30%;
-     text-align: left;
-     top: 18.75rem;
-}
- .insta{
-     margin: 0 auto;
-}
- .telefon{
-     margin: 0 auto;
-}
- .correu{
-     margin: 0 auto;
-}
- .xarxes{
-     height: auto;
 }
 
+.contacte img{
+     top: 10rem;
+     width: 15rem;
+     height: auto;
+}
 
  @media screen and (max-width: 480px) {
      .p1 h1{
@@ -245,16 +225,15 @@
          left: 0.05rem;
     }
 
-     .p3 img{
-         height: 3.125rem;
-         width: 3.125rem;
-         float:left;
-    }
-     .p3 h3{
-         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-         font-size: 8pt;
-         text-align: center;
-    }
+    .contacte{
+     margin: 0 auto;
+     }
+
+     .contacte img{
+          top: 10rem;
+          width: 20%;
+          height: auto;
+     }
 }
 
 
